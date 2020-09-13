@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="movie" class="com.test.sp.ioc5.Movie">
+		<property name="movieName" value="샌안드레아스"></property>
+		<property name="playTime" value="1시간 54"></property>
+		<property name="viewCount" value="1710000"></property>
+		<property name="makePerson" value="브래드 페이턴"></property>
+	</bean>
+	<bean id="movie1" class="com.test.sp.ioc5.Movie">
+		<property name="movieName" value="코어"></property>
+		<property name="playTime" value="2시간 10분"></property>
+		<property name="makePerson" value="존아미엘"></property>
+	</bean>
+	
+	<bean id="televison" class="com.test.sp.ioc5.Televison">
+		<property name="movie" ref="movie"></property>
+	</bean>
+	<bean id="movieTheater" class="com.test.sp.ioc5.MovieTheater">
+		<property name="movie" ref="movie1"></property>
+	</bean>
+</beans>

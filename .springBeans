@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.13.202006180736-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+		<config>src/main/resources/ioc/ioc1.xml</config>
+		<config>src/main/resources/ioc/ioc2.xml</config>
+		<config>src/main/resources/ioc/ioc3.xml</config>
+		<config>src/main/resources/ioc/ioc4.xml</config>
+		<config>src/main/resources/ioc/ioc5.xml</config>
+		<config>src/main/resources/ioc/ioc6.xml</config>
+		<config>src/main/resources/ioc/ioc7.xml</config>
+		<config>src/main/resources/ioc/ioc8.xml</config>
+		<config>src/main/resources/ioc/ioc9.xml</config>
+		<config>src/main/resources/ioc/ioc10.xml</config>
+	</configs>
+	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
+		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

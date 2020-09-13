@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="game" class="com.test.sp.ioc4.Game">
+		<property name="gameName" value="농구"></property>
+		<property name="playTime" value="1"></property>
+	</bean>
+	<bean id="sports" class="com.test.sp.ioc4.Sports">
+		<property name="game" ref="game"></property>
+	</bean>
+</beans>
